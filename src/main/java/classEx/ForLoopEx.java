@@ -3,7 +3,7 @@ package main.java.classEx;
 public class ForLoopEx {
 
     public static void main(String[] args) {
-        int i = 5 ;
+        //int i = 5 ;
         // for( ;  ; ){
         //     System.out.println(i);
         // }
