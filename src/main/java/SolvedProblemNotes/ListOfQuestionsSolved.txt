@@ -1,0 +1,23 @@
+
+-------------------------------------------------------------------------------------------------------------------
+1:           https://leetcode.com/problems/two-sum/description/
+
+solution:    I)  brute force solution                                                       TC: O(N^2) and SC: O(1)
+             II) Optimized solution Using hasmap                                            TC: O(N)   and SC: O(N)
+
+-------------------------------------------------------------------------------------------------------------------
+
+2:          https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/    
+
+solution:    I) Brute force solution                                                        TC: O(N^2) and SC: O(N)  
+             II) Optimized solution using Two pointers                                      TC: O(N) and SC: O(1)  
+
+-------------------------------------------------------------------------------------------------------------------
+
+3:          https://leetcode.com/problems/remove-element/description/
+
+solution:   I) Brute force solution                                                         TC: O(N) and SC: O(N)
+            II) Optimized solution using Two pointers                                       TC: O(N^2) and SC: O(N) 
+
+-------------------------------------------------------------------------------------------------------------------- 
+
