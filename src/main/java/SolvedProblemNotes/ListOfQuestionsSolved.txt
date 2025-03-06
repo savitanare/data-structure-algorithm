@@ -1,36 +1,56 @@
 TC: O( ) and SC: O( )
+
 26th Feb 2025
--------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------
 1:           https://leetcode.com/problems/two-sum/description/
 
-Solution:    I)  brute force solution                                                       TC: O(N^2) and SC: O(1)
-             II) Optimized solution Using hasmap                                            TC: O(N)   and SC: O(N)
-solution:    I)  brute force solution                                                       TC: O(N^2) and  SC: O(1)
-             II) Optimized solution Using hasmap                                            TC: O(N)   and  SC: O(N)
+Solution:    I)  Brute force solution                                                           TC: O(N^2) and SC: O(1)
+             II) Optimized solution Using hasmap                                                TC: O(N)   and SC: O(N)
 
--------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------
 
 2:          https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/    
 
-Solution:    I) Brute force solution                                                        TC: O(N^2) and SC: O(N)  
-             II) Optimized solution using Two pointers                                      TC: O(N) and SC: O(1)  
-solution:    I) Brute force solution                                                        TC: O(N)   and  SC: O(N)  
-             II) Optimized solution using Two pointers                                      TC: O(N)   and  SC: O(1)  
+Solution:    I)  Brute force solution                                                           TC: O(N^2) and SC: O(N)  
+             II) Optimized solution using Two pointers                                          TC: O(N) and SC: O(1)  
 
--------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 3:          https://leetcode.com/problems/remove-element/description/
+   
+Solution:   I)  Brute force solution                                                             TC: O(N) and SC: O(N)
+            II) Optimized solution using Two pointers                                            TC: O(N^2) and SC: O(N) 
 
-Solution:   I) Brute force solution                                                         TC: O(N) and SC: O(N)
-            II) Optimized solution using Two pointers                                       TC: O(N^2) and SC: O(N) 
-solution:   I) Brute force solution                                                         TC: O(N)   and  SC: O(N)
-            II) Optimized solution using Two pointers                                       TC: O(N)   and  SC: O(1) 
 
--------------------------------------------------------------------------------------------------------------------- 
+------------------------------------------------------------------------------------------------------------------------------------------------ 
 
 4:          https://leetcode.com/problems/search-insert-position/description/               
 
-Solution:   I) Brute force solution                                                         TC: O() and SC: O()
-            II) Optimized solution                                                          TC: O() and SC: O()
+Solution:   I)  Brute force solution                                                             TC: O(N) and SC: O(1)
+            II) Optimized solution  using binary search                                          TC: O(N log N) and SC: O(1)
 
----------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+*********************
+DATE: 06th March 2025 
+*********************
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+5:          https://leetcode.com/problems/plus-one/description/
+
+Solution:   I)  Brute force solution                                                            TC O(N)  and SC : O(N)
+            II) Optimized solution same solution                                                Space Complexity: O(n) in the worst case, O(1) otherwise
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+6:          https://leetcode.com/problems/merge-sorted-array/
+
+Solution:   I) Brute Force Solution                                                             TC:         and       SC: 
+           II) Optimized Solution                                                               TC:         and       SC:
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------                    
