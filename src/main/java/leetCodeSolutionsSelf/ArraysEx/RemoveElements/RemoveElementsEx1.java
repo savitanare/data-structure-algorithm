@@ -1,4 +1,4 @@
-package main.java.leetCodeSolutionsSelf.RemoveElements;
+package main.java.leetCodeSolutionsSelf.ArraysEx.RemoveElements;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package main.java.leetCodeSolutionsSelf.TwoSumEx;
+package main.java.leetCodeSolutionsSelf.ArraysEx.TwoSumEx;
 
 import java.util.Arrays;
 import java.util.HashMap;

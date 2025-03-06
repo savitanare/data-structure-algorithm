@@ -1,4 +1,4 @@
-package main.java.leetCodeSolutionsSelf.RemoveDuplicatesSortedArray;
+package main.java.leetCodeSolutionsSelf.ArraysEx.RemoveDuplicatesSortedArray;
 
 import java.util.ArrayList;
 import java.util.Arrays;
