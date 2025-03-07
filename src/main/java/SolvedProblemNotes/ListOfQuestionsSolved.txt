@@ -50,7 +50,29 @@ Solution:   I)  Brute force solution                                            
 
 6:          https://leetcode.com/problems/merge-sorted-array/
 
-Solution:   I) Brute Force Solution                                                             TC:         and       SC: 
-           II) Optimized Solution                                                               TC:         and       SC:
+Solution:   I) Brute Force Solution                                                             TC:O((M + N)Log(M + N))   and       SC: O(1) 
+           II) Optimized Solution                                                               TC: O(M + N)              and       SC: O(1)
 
--------------------------------------------------------------------------------------------------------------------------------------------------------                    
+-------------------------------------------------------------------------------------------------------------------------------------------------------  
+
+
+
+*********************
+DATE: 07th March 2025 
+*********************
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+5:          https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree
+
+Solution:   I)  Brute force solution                                                            TC O()  and SC : O()
+            II) Optimized solution same solution                                                
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+6:          https://leetcode.com/problems/pascals-triangle
+
+Solution:   I) Brute Force Solution                                                             TC:O()   and       SC: O(1) 
+           II) Optimized Solution                                                               TC:O()   and       SC: O(1)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------  
+
