@@ -4,8 +4,11 @@ TC: O( ) and SC: O( )
 ----------------------------------------------------------------------------------------------------------------------------------------------
 1:           https://leetcode.com/problems/two-sum/description/
 
-Solution:    I)  Brute force solution                                                           TC: O(N^2) and SC: O(1)
-             II) Optimized solution Using hasmap                                                TC: O(N)   and SC: O(N)
+Solution:   I)   Brute force solution                                                           TC: O(N^2) and SC: O(1)
+            II)  Optimized solution Using hasmap                                                TC: O(N)   and SC: O(N)
+            III) Sorting and Two Pointers                                                       TC: O(NlogN) and SC: O(1)                      
+
+
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
