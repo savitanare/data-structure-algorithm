@@ -9,3 +9,100 @@
 -------------------------------------------
 Note :
 Interview two sum question will ask in different different ways
+
+
+------------------------------------------------------
+SUBARRAY vs SUBSEQUENCE VS SUBSET
+------------------------------------------------------
+
+arr =[5 2 1 4 3 6]
+
+Subarray = SubStrings (STRINGS)
+
+---> SUBARRAY
+- Values MUST be CONTIGUOUS
+- Values MUST be in ORDER (Same Order as in Original Array)
+
+EX:
+[5 2 1]        : YES
+[1 4 3 6]      : YES
+[1 4 6]        : NO
+[1 2 5]        : NO
+[5 2 1 4 3 6]  : YES
+[5], [2]       : YES
+
+
+Formula for Subarray :
+arr =[5 2 1 4 3 6]
+size = 6
+
+Subarrays starting from 5 , i =0 total is 6 (N - i)
+
+[5]
+[5 2 ]
+[5 2 1]
+[5 2 1 4 ]
+[5 2 1 4 3 ]
+[5 2 1 4 3 6]
+
+Total Number of Subarrays in an array :
+= 6 + 5 + 4 + 3 + 2 + 1
+= 21
+
+
+Total Number of Subarrays in an array of Size N:
+
+= N + (N - 1) + . . . . . .  . . . . .. .  +1
+= 1 + 2 + . . . . . . . . . . . . . . . .  + N
+= N * (N + 1) / 2
+
+CODE:
+
+
+--------------------------------------------------------------
+
+---> SUBSEQUENCES
+
+arr =[5 2 1 4 3 6]
+
+- Values NEED NOT be CONTIGUOUS
+- Values MUST be in ORDER (Same Order as in Original Array)
+
+
+EX:
+
+[5 2 1]        : YES
+[1 4 3 6]      : YES
+[1 4 6]        : YES
+[1 2 5]        : NO
+[5 2 1 4 3 6]  : YES
+[5], [2]       : YES
+
+
+---> SUBSET
+arr =[5 2 1 4 3 6]
+
+- ANY POSSIBLE COMBINATION from Elements of Array
+- Values NEED NOT be CONTIGUOUS
+- Values NEED NOT be in ORDER (Same Order as in Original Array)
+
+EX:
+
+[5 2 1]        : YES
+[1 4 3 6]      : YES
+[1 4 6]        : YES
+[1 2 5]        : YES
+[5 2 1 4 3 6]  : YES
+[5], [2]       : YES
+[1 2 7]        : NO 
+
+
+
+Subsets
+-Subsequences
+-Subarrays
+
+
+Syllogism :
+All Subarrays are Subsequences
+All Subsequences are Subsets
