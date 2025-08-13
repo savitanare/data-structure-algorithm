@@ -1,0 +1,131 @@
+Wliding Window
+Q1) https://leetcode.com/problems/max-consecutive-ones/description/
+
+Tick :
+Translation :
+            Return the maximum number of consecutive 1s in the array
+
+Translation :
+            Find the length of largest subarray of 1 in a binary array
+
+Approach :
+
+A variable ans to find largest subarray of 1
+
+if(arr[i] == 0)
+reset ans = 0
+else
+   ans++;
+
+ final ans : mas of all ans
+
+ Becuase there can be multiple subarrays of 1 we need to find max  
+
+ Q2: Max Consecutive Ones II
+
+
+
+
+
+ ------------------------- String question-----------------------
+
+1) check if a String "b" is a substring of another string "a"
+
+a = "devang"
+b = "dev"
+
+OP true
+
+a = "devang"
+b = "dvg"
+
+op = false
+
+LeetCode questions:
+
+Q1:  https://leetcode.com/problems/valid-anagram/
+
+solution :
+1) sorting : 
+Anagram
+All characters present with SAME Frequency
+
+Sort Both Strings:
+ALL SAME characters would be Adjacent
+
+Sorting - 2 Reasons:
+1) Apply any algo which REQUIRES Sorted values
+    a) Binary Search
+    b) Two Pointers
+2) If we want all same values to be adjacent
+
+
+- Sort Both Strings
+- Compare Two Strings, If Same - Anagram, Else Not Anagram
+
+s = "anagram"
+t = "nagaram"
+
+After Sorting
+
+s = aaagmnr , t = aaagmnr
+
+
+2) Hashing - MAP
+
+Anagram:
+All Characters present with SAME Frequency
+
+input s = "rat" , t ="car"
+
+op: false
+
+1) First way : 2 maps
+
+map 1 for s:
+r : 1
+a : 1
+t : 1
+
+Map -2 for t 
+
+c : 1
+a : 1
+r : 1
+
+map 1 == map 2
+OP : false
+
+
+2) Second Way  : 1 Map
+input s = "rat" , t ="tar"
+
+op : true
+
+Map :
+for s : increase frequency 
+r: 1
+a: 1
+t: 1
+
+for t decrease frequency
+
+r: 0
+a: 0
+t: 0
+
+in Map all values == 0 return true else return false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
